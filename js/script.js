@@ -12,6 +12,6 @@ let colore = prompt('inserisci il tuo colore preferito');
 
 let password = nome + cognome + colore + 21;
 
-console.log(latuapassword);
+console.log(password);
 
-document.getElementById('yourpassword').innerHTML = password;
+document.getElementById('latuapassword').innerHTML = password;
